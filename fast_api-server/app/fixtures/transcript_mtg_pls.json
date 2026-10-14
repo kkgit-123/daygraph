@@ -1,0 +1,404 @@
+{
+ "duration_sec": 2520,
+ "segments": [
+  {
+   "idx": 0,
+   "speaker_id": "per_mei",
+   "speaker_name": "Mei Chen",
+   "offset_sec": 0,
+   "text": "Good morning everyone. Can you all hear me okay?"
+  },
+  {
+   "idx": 1,
+   "speaker_id": "per_rahul",
+   "speaker_name": "Rahul Menon",
+   "offset_sec": 12,
+   "text": "Loud and clear. Morning from Singapore."
+  },
+  {
+   "idx": 2,
+   "speaker_id": "per_dewi",
+   "speaker_name": "Dewi Lestari",
+   "offset_sec": 25,
+   "text": "Morning. Jakarta is raining again, so excuse the noise."
+  },
+  {
+   "idx": 3,
+   "speaker_id": "per_aiko",
+   "speaker_name": "Aiko Tanaka",
+   "offset_sec": 41,
+   "text": "Morning. I have the refund webhook branch open if we need it."
+  },
+  {
+   "idx": 4,
+   "speaker_id": "per_jinwoo",
+   "speaker_name": "Jin-woo Park",
+   "offset_sec": 63,
+   "text": "Morning. Sorry, joining from my phone for the first few minutes."
+  },
+  {
+   "idx": 5,
+   "speaker_id": "per_mei",
+   "speaker_name": "Mei Chen",
+   "offset_sec": 90,
+   "text": "No problem. Quick agenda: launch status, the vendor certification, load test data, and the retry policy."
+  },
+  {
+   "idx": 6,
+   "speaker_id": "per_rahul",
+   "speaker_name": "Rahul Menon",
+   "offset_sec": 130,
+   "text": "Before we start, did anyone see the football last night? That was a wild second half."
+  },
+  {
+   "idx": 7,
+   "speaker_id": "per_dewi",
+   "speaker_name": "Dewi Lestari",
+   "offset_sec": 148,
+   "text": "I fell asleep before the end. Tell me later."
+  },
+  {
+   "idx": 8,
+   "speaker_id": "per_mei",
+   "speaker_name": "Mei Chen",
+   "offset_sec": 170,
+   "text": "Ha, later. Let's start with launch status. Rahul, where are we?"
+  },
+  {
+   "idx": 9,
+   "speaker_id": "per_rahul",
+   "speaker_name": "Rahul Menon",
+   "offset_sec": 200,
+   "text": "The checkout flow is feature complete. Refunds are done except for the webhook retries."
+  },
+  {
+   "idx": 10,
+   "speaker_id": "per_aiko",
+   "speaker_name": "Aiko Tanaka",
+   "offset_sec": 245,
+   "text": "The webhook retries are about two days away. The idempotency key bug is the last blocker."
+  },
+  {
+   "idx": 11,
+   "speaker_id": "per_rahul",
+   "speaker_name": "Rahul Menon",
+   "offset_sec": 290,
+   "text": "Good. Dewi, how does QA look on the new flow?"
+  },
+  {
+   "idx": 12,
+   "speaker_id": "per_dewi",
+   "speaker_name": "Dewi Lestari",
+   "offset_sec": 320,
+   "text": "Mostly green. I found two flaky tests in checkout but nothing that blocks a release."
+  },
+  {
+   "idx": 13,
+   "speaker_id": "per_aiko",
+   "speaker_name": "Aiko Tanaka",
+   "offset_sec": 370,
+   "text": "The flaky checkout test is mine. I will look at it this week."
+  },
+  {
+   "idx": 14,
+   "speaker_id": "per_mei",
+   "speaker_name": "Mei Chen",
+   "offset_sec": 420,
+   "text": "Thanks. Now the vendor. Their sandbox certification is the long pole."
+  },
+  {
+   "idx": 15,
+   "speaker_id": "per_rahul",
+   "speaker_name": "Rahul Menon",
+   "offset_sec": 470,
+   "text": "They told me last week that certification takes about four weeks once we submit."
+  },
+  {
+   "idx": 16,
+   "speaker_id": "per_dewi",
+   "speaker_name": "Dewi Lestari",
+   "offset_sec": 530,
+   "text": "The certification plan document says sandbox certification should complete in the week of 9 November."
+  },
+  {
+   "idx": 17,
+   "speaker_id": "per_mei",
+   "speaker_name": "Mei Chen",
+   "offset_sec": 590,
+   "text": "That is later than I hoped. Does anyone see a way to speed it up?"
+  },
+  {
+   "idx": 18,
+   "speaker_id": "per_jinwoo",
+   "speaker_name": "Jin-woo Park",
+   "offset_sec": 640,
+   "text": "If we had a second sandbox account we could run the two test suites in parallel."
+  },
+  {
+   "idx": 19,
+   "speaker_id": "per_rahul",
+   "speaker_name": "Rahul Menon",
+   "offset_sec": 690,
+   "text": "In theory yes, but the vendor only gives us one account. It is a nice idea though."
+  },
+  {
+   "idx": 20,
+   "speaker_id": "per_mei",
+   "speaker_name": "Mei Chen",
+   "offset_sec": 745,
+   "text": "What if we asked them for a second account? Hypothetically that could save a week."
+  },
+  {
+   "idx": 21,
+   "speaker_id": "per_rahul",
+   "speaker_name": "Rahul Menon",
+   "offset_sec": 800,
+   "text": "I can ask, but I would not plan around it. They are quite strict."
+  },
+  {
+   "idx": 22,
+   "speaker_id": "per_aiko",
+   "speaker_name": "Aiko Tanaka",
+   "offset_sec": 860,
+   "text": "Agreed. Let's not count on a second account."
+  },
+  {
+   "idx": 23,
+   "speaker_id": "per_jinwoo",
+   "speaker_name": "Jin-woo Park",
+   "offset_sec": 920,
+   "text": "Switching topic for a moment, the design team wants a demo of the refund screen."
+  },
+  {
+   "idx": 24,
+   "speaker_id": "per_mei",
+   "speaker_name": "Mei Chen",
+   "offset_sec": 975,
+   "text": "Maybe next week we can do a demo. Let's see how the week goes."
+  },
+  {
+   "idx": 25,
+   "speaker_id": "per_rahul",
+   "speaker_name": "Rahul Menon",
+   "offset_sec": 1030,
+   "text": "Sounds reasonable. No commitment yet."
+  },
+  {
+   "idx": 26,
+   "speaker_id": "per_dewi",
+   "speaker_name": "Dewi Lestari",
+   "offset_sec": 1085,
+   "text": "Can someone remind me who owns the load test environment?"
+  },
+  {
+   "idx": 27,
+   "speaker_id": "per_jinwoo",
+   "speaker_name": "Jin-woo Park",
+   "offset_sec": 1130,
+   "text": "That is the shared staging cluster. Nobody owns it formally."
+  },
+  {
+   "idx": 28,
+   "speaker_id": "per_aiko",
+   "speaker_name": "Aiko Tanaka",
+   "offset_sec": 1180,
+   "text": "I can take a look at what the staging cluster can handle."
+  },
+  {
+   "idx": 29,
+   "speaker_id": "per_rahul",
+   "speaker_name": "Rahul Menon",
+   "offset_sec": 1235,
+   "text": "Okay. Mei, back to the date. Are we still comfortable with 1 November?"
+  },
+  {
+   "idx": 30,
+   "speaker_id": "per_mei",
+   "speaker_name": "Mei Chen",
+   "offset_sec": 1290,
+   "text": "That is the question. We agreed on 1 November on the third of October, but things have moved."
+  },
+  {
+   "idx": 31,
+   "speaker_id": "per_rahul",
+   "speaker_name": "Rahul Menon",
+   "offset_sec": 1345,
+   "text": "Right. The vendor certification does not fit before 1 November."
+  },
+  {
+   "idx": 32,
+   "speaker_id": "per_mei",
+   "speaker_name": "Mei Chen",
+   "offset_sec": 1395,
+   "text": "Yes. Let me say it in Japanese so the team in Tokyo is clear."
+  },
+  {
+   "idx": 33,
+   "speaker_id": "per_mei",
+   "speaker_name": "Mei Chen",
+   "offset_sec": 1420,
+   "text": "決済ベンダーの認証が遅れているので、リリースは11月15日に延期しましょう。"
+  },
+  {
+   "idx": 34,
+   "speaker_id": "per_aiko",
+   "speaker_name": "Aiko Tanaka",
+   "offset_sec": 1465,
+   "text": "Understood. I will update the release checklist accordingly."
+  },
+  {
+   "idx": 35,
+   "speaker_id": "per_rahul",
+   "speaker_name": "Rahul Menon",
+   "offset_sec": 1510,
+   "text": "I will tell the vendor and update the stakeholders."
+  },
+  {
+   "idx": 36,
+   "speaker_id": "per_mei",
+   "speaker_name": "Mei Chen",
+   "offset_sec": 1560,
+   "text": "Thanks Rahul. Let's move on to load testing."
+  },
+  {
+   "idx": 37,
+   "speaker_id": "per_dewi",
+   "speaker_name": "Dewi Lestari",
+   "offset_sec": 1620,
+   "text": "For load testing I need realistic staging data. Right now we only have a thin sample."
+  },
+  {
+   "idx": 38,
+   "speaker_id": "per_aiko",
+   "speaker_name": "Aiko Tanaka",
+   "offset_sec": 1690,
+   "text": "How much data do you need?"
+  },
+  {
+   "idx": 39,
+   "speaker_id": "per_dewi",
+   "speaker_name": "Dewi Lestari",
+   "offset_sec": 1730,
+   "text": "About a million rows, with the refund cases included."
+  },
+  {
+   "idx": 40,
+   "speaker_id": "per_jinwoo",
+   "speaker_name": "Jin-woo Park",
+   "offset_sec": 1790,
+   "text": "I can generate the refund cases if someone shares the schema."
+  },
+  {
+   "idx": 41,
+   "speaker_id": "per_mei",
+   "speaker_name": "Mei Chen",
+   "offset_sec": 1840,
+   "text": "Let's make it concrete so we do not forget."
+  },
+  {
+   "idx": 42,
+   "speaker_id": "per_dewi",
+   "speaker_name": "Dewi Lestari",
+   "offset_sec": 1865,
+   "text": "Aiko-san, tolong kirim data staging sebelum hari Senin, ya."
+  },
+  {
+   "idx": 43,
+   "speaker_id": "per_aiko",
+   "speaker_name": "Aiko Tanaka",
+   "offset_sec": 1900,
+   "text": "Sure. Before Monday, got it."
+  },
+  {
+   "idx": 44,
+   "speaker_id": "per_rahul",
+   "speaker_name": "Rahul Menon",
+   "offset_sec": 1950,
+   "text": "If the load test fails we might need another week. But let's hope not."
+  },
+  {
+   "idx": 45,
+   "speaker_id": "per_mei",
+   "speaker_name": "Mei Chen",
+   "offset_sec": 2010,
+   "text": "Hopefully not. If it fails we will talk again."
+  },
+  {
+   "idx": 46,
+   "speaker_id": "per_jinwoo",
+   "speaker_name": "Jin-woo Park",
+   "offset_sec": 2070,
+   "text": "One more thing. The retry policy document is out of date."
+  },
+  {
+   "idx": 47,
+   "speaker_id": "per_aiko",
+   "speaker_name": "Aiko Tanaka",
+   "offset_sec": 2120,
+   "text": "Yes, it still describes the old three-attempt policy without jitter."
+  },
+  {
+   "idx": 48,
+   "speaker_id": "per_mei",
+   "speaker_name": "Mei Chen",
+   "offset_sec": 2170,
+   "text": "It is important because the vendor audit reads it."
+  },
+  {
+   "idx": 49,
+   "speaker_id": "per_jinwoo",
+   "speaker_name": "Jin-woo Park",
+   "offset_sec": 2215,
+   "text": "The audit is the week after next, so it needs to be fixed soon."
+  },
+  {
+   "idx": 50,
+   "speaker_id": "per_rahul",
+   "speaker_name": "Rahul Menon",
+   "offset_sec": 2260,
+   "text": "Who should own the document?"
+  },
+  {
+   "idx": 51,
+   "speaker_id": "per_jinwoo",
+   "speaker_name": "Jin-woo Park",
+   "offset_sec": 2292,
+   "text": "Aiko-san、リトライのポリシー文書を金曜日までにお願いします。"
+  },
+  {
+   "idx": 52,
+   "speaker_id": "per_aiko",
+   "speaker_name": "Aiko Tanaka",
+   "offset_sec": 2335,
+   "text": "I will try, although I have a lot on my plate."
+  },
+  {
+   "idx": 53,
+   "speaker_id": "per_mei",
+   "speaker_name": "Mei Chen",
+   "offset_sec": 2380,
+   "text": "Let's keep an eye on it. Anything else before we close?"
+  },
+  {
+   "idx": 54,
+   "speaker_id": "per_rahul",
+   "speaker_name": "Rahul Menon",
+   "offset_sec": 2425,
+   "text": "Nothing from me. Thanks everyone."
+  },
+  {
+   "idx": 55,
+   "speaker_id": "per_dewi",
+   "speaker_name": "Dewi Lestari",
+   "offset_sec": 2470,
+   "text": "Thanks all. Have a good weekend."
+  },
+  {
+   "idx": 56,
+   "speaker_id": "per_mei",
+   "speaker_name": "Mei Chen",
+   "offset_sec": 2500,
+   "text": "Thanks. Talk next week."
+  }
+ ]
+}

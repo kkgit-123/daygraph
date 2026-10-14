@@ -1,0 +1,8 @@
+{
+  "key": "launch",
+  "sentences": [
+    {"text": "The launch moved to 15 November because the payments vendor’s certification slipped.", "source_ids": ["dec_d3"]},
+    {"text": "This replaces the 3 October decision to ship on 1 November.", "source_ids": ["dec_d2"]},
+    {"text": "The vendor’s plan expects sandbox certification to finish in the week of 9 November.", "source_ids": ["doc_cert"]}
+  ]
+}

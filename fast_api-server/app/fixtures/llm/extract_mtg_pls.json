@@ -1,0 +1,57 @@
+{
+  "match": "決済ベンダーの認証が遅れているので",
+  "items": [
+    {
+      "statement": "Move the payments launch to 15 November",
+      "short_title": "Move launch to 15 Nov",
+      "quote": "決済ベンダーの認証が遅れているので、リリースは11月15日に延期しましょう。",
+      "quote_lang": "ja",
+      "translation": "Because the payments vendor’s certification is delayed, let’s postpone the release to 15 November.",
+      "owner_mention": "Aiko Tanaka",
+      "addressed": false,
+      "deadline": "2026-11-15",
+      "task_title": "Update the release checklist for 15 Nov",
+      "task_short": "Release checklist",
+      "topic_hint": "Payments launch date"
+    },
+    {
+      "statement": "Send the staging data to Dewi by Monday",
+      "short_title": "Send staging data",
+      "quote": "Aiko-san, tolong kirim data staging sebelum hari Senin, ya.",
+      "quote_lang": "id",
+      "translation": "Aiko, please send the staging data before Monday.",
+      "owner_mention": "Aiko Tanaka",
+      "addressed": true,
+      "deadline": "2026-10-12",
+      "task_title": "Send the staging data to Dewi",
+      "task_short": "Send staging data",
+      "topic_hint": "Load test staging data"
+    },
+    {
+      "statement": "Update the retry policy document by Friday",
+      "short_title": "Update retry policy",
+      "quote": "Aiko-san、リトライのポリシー文書を金曜日までにお願いします。",
+      "quote_lang": "ja",
+      "translation": "Aiko, please update the retry policy document by Friday.",
+      "owner_mention": "Aiko-san",
+      "addressed": true,
+      "deadline": "2026-10-16",
+      "task_title": "Update the retry policy document",
+      "task_short": "Retry policy doc",
+      "topic_hint": "Retry policy"
+    },
+    {
+      "statement": "Request a second sandbox account from the vendor",
+      "short_title": "Second sandbox account",
+      "quote": "We will request a second sandbox account from the vendor this week.",
+      "quote_lang": "en",
+      "translation": null,
+      "owner_mention": "Rahul Menon",
+      "addressed": false,
+      "deadline": null,
+      "task_title": "Request a second sandbox account",
+      "task_short": "Second sandbox",
+      "topic_hint": "Payments launch date"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "key": "retry",
+  "sentences": [
+    {"text": "You saved an article on retry budgets that argues for capping retries per request rather than per attempt.", "source_ids": ["lnk_1"]},
+    {"text": "Your idea from 29 September, batching webhook retries behind a queue, builds on that.", "source_ids": ["ide_1"]},
+    {"text": "Your design notes from 3 October already limit retries to three attempts.", "source_ids": ["note_design"]}
+  ]
+}

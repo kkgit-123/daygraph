@@ -1,0 +1,19 @@
+fastapi
+uvicorn
+pyyaml
+google-genai
+pydantic
+PyJWT
+rapidfuzz
+numpy
+cryptography
+httpx
+google-api-python-client
+google-auth
+httplib2
+google-auth-httplib2
+rapidfuzz
+
+# dev / test
+pytest
+freezegun

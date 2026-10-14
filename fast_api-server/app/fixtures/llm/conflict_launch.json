@@ -1,0 +1,11 @@
+{
+  "match_proposed": "15 November",
+  "target_contains": "1 November",
+  "result": {
+    "relation": "CONTRADICTS",
+    "rationale": "Both decisions set the payments launch date. Choose what happens to the earlier one before this becomes a task.",
+    "earlier_value": "1 Nov",
+    "proposed_value": "15 Nov",
+    "proposed_note": "Mentions the vendor delay. Does not say it replaces the earlier decision."
+  }
+}

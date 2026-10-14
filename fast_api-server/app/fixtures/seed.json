@@ -1,0 +1,1558 @@
+{
+ "people": [
+  {
+   "id": "per_aiko",
+   "name": "Aiko Tanaka",
+   "initials": "AT",
+   "role": "Developer",
+   "city": "Tokyo",
+   "bg": "#C9CEF8",
+   "fg": "#1B2150",
+   "aliases": [
+    "Aiko Tanaka",
+    "Tanaka-san",
+    "Tanaka"
+   ]
+  },
+  {
+   "id": "per_rahul",
+   "name": "Rahul Menon",
+   "initials": "RM",
+   "role": "Product manager",
+   "city": "Singapore",
+   "bg": "#FBE0B3",
+   "fg": "#4A2F00",
+   "aliases": [
+    "Rahul"
+   ]
+  },
+  {
+   "id": "per_mei",
+   "name": "Mei Chen",
+   "initials": "MC",
+   "role": "Team lead",
+   "city": "Sydney",
+   "bg": "#BFE8D6",
+   "fg": "#0B4A38",
+   "aliases": [
+    "Mei"
+   ]
+  },
+  {
+   "id": "per_dewi",
+   "name": "Dewi Lestari",
+   "initials": "DL",
+   "role": "QA engineer",
+   "city": "Jakarta",
+   "bg": "#F8CFE0",
+   "fg": "#5A1536",
+   "aliases": [
+    "Dewi"
+   ]
+  },
+  {
+   "id": "per_jinwoo",
+   "name": "Jin-woo Park",
+   "initials": "JP",
+   "role": "Backend engineer",
+   "city": "Seoul",
+   "bg": "#CFE3F8",
+   "fg": "#12355A",
+   "aliases": [
+    "Jin-woo",
+    "Jinwoo"
+   ]
+  },
+  {
+   "id": "per_kobayashi",
+   "name": "Aiko Kobayashi",
+   "initials": "AK",
+   "role": "Design",
+   "city": "Tokyo",
+   "bg": "#E8D5F5",
+   "fg": "#3A1A55",
+   "aliases": [
+    "Kobayashi-san",
+    "Kobayashi"
+   ]
+  },
+  {
+   "id": "per_taro",
+   "name": "Taro Sato",
+   "initials": "TS",
+   "role": "Developer",
+   "city": "Osaka",
+   "bg": "#DDE3EA",
+   "fg": "#2B3441",
+   "aliases": [
+    "Taro"
+   ],
+   "in_directory": 0
+  },
+  {
+   "id": "per_priya",
+   "name": "Priya Nair",
+   "initials": "PN",
+   "role": "SRE",
+   "city": "Bangalore",
+   "bg": "#FDE3C8",
+   "fg": "#5A2A00",
+   "aliases": [
+    "Priya"
+   ]
+  },
+  {
+   "id": "per_omar",
+   "name": "Omar Haddad",
+   "initials": "OH",
+   "role": "Security engineer",
+   "city": "Dubai",
+   "bg": "#D5F0E0",
+   "fg": "#0E4A2C",
+   "aliases": [
+    "Omar"
+   ]
+  },
+  {
+   "id": "per_sofia",
+   "name": "Sofia Reyes",
+   "initials": "SR",
+   "role": "Compliance lead",
+   "city": "Madrid",
+   "bg": "#EBD9F7",
+   "fg": "#40195E",
+   "aliases": [
+    "Sofia"
+   ]
+  }
+ ],
+ "users": [
+  {
+   "id": "usr_aiko",
+   "person_id": "per_aiko",
+   "handle": "aiko"
+  },
+  {
+   "id": "usr_taro",
+   "person_id": "per_taro",
+   "handle": "taro"
+  },
+  {
+   "id": "usr_mei",
+   "person_id": "per_mei",
+   "handle": "mei"
+  }
+ ],
+ "connections": [
+  {
+   "id": "con_aiko_meet",
+   "user_id": "usr_aiko",
+   "service": "meet",
+   "label": "Meet",
+   "detail": "Transcripts",
+   "status": "connected"
+  },
+  {
+   "id": "con_aiko_calendar",
+   "user_id": "usr_aiko",
+   "service": "calendar",
+   "label": "Calendar",
+   "detail": "Free and busy",
+   "status": "connected"
+  },
+  {
+   "id": "con_aiko_tasks",
+   "user_id": "usr_aiko",
+   "service": "tasks",
+   "label": "Tasks",
+   "detail": "Write back",
+   "status": "connected"
+  },
+  {
+   "id": "con_aiko_drive",
+   "user_id": "usr_aiko",
+   "service": "drive",
+   "label": "Drive",
+   "detail": "Read only",
+   "status": "connected"
+  },
+  {
+   "id": "con_taro_meet",
+   "user_id": "usr_taro",
+   "service": "meet",
+   "label": "Meet",
+   "detail": "Transcripts",
+   "status": "connected"
+  },
+  {
+   "id": "con_taro_calendar",
+   "user_id": "usr_taro",
+   "service": "calendar",
+   "label": "Calendar",
+   "detail": "Free and busy",
+   "status": "connected"
+  },
+  {
+   "id": "con_taro_tasks",
+   "user_id": "usr_taro",
+   "service": "tasks",
+   "label": "Tasks",
+   "detail": "Write back",
+   "status": "connected"
+  },
+  {
+   "id": "con_taro_drive",
+   "user_id": "usr_taro",
+   "service": "drive",
+   "label": "Drive",
+   "detail": "Read only",
+   "status": "connected"
+  },
+  {
+   "id": "con_mei_meet",
+   "user_id": "usr_mei",
+   "service": "meet",
+   "label": "Meet",
+   "detail": "Transcripts",
+   "status": "connected"
+  },
+  {
+   "id": "con_mei_calendar",
+   "user_id": "usr_mei",
+   "service": "calendar",
+   "label": "Calendar",
+   "detail": "Free and busy",
+   "status": "connected"
+  },
+  {
+   "id": "con_mei_tasks",
+   "user_id": "usr_mei",
+   "service": "tasks",
+   "label": "Tasks",
+   "detail": "Write back",
+   "status": "connected"
+  },
+  {
+   "id": "con_mei_drive",
+   "user_id": "usr_mei",
+   "service": "drive",
+   "label": "Drive",
+   "detail": "Read only",
+   "status": "connected"
+  }
+ ],
+ "meetings": [
+  {
+   "id": "mtg_qp",
+   "title": "Quarter planning",
+   "start_at": "2026-09-22T01:00:00+00:00",
+   "end_at": "2026-09-22T02:00:00+00:00",
+   "organizer_id": "per_mei",
+   "status": "PROCESSED",
+   "source": "calendar"
+  },
+  {
+   "id": "mtg_lp",
+   "title": "Launch planning",
+   "start_at": "2026-10-03T01:00:00+00:00",
+   "end_at": "2026-10-03T01:30:00+00:00",
+   "organizer_id": "per_rahul",
+   "status": "PROCESSED",
+   "source": "calendar"
+  },
+  {
+   "id": "mtg_pls",
+   "title": "Payments launch sync",
+   "start_at": "2026-10-09T00:30:00+00:00",
+   "end_at": "2026-10-09T01:00:00+00:00",
+   "organizer_id": "per_mei",
+   "status": "PROCESSED",
+   "source": "calendar",
+   "check_summary": [
+    "Fetched the transcript from Meet",
+    "Found 3 decisions and commitments",
+    "Matched all 3 quotes word for word, in their original language",
+    "Matched owners to your directory. One needs your check.",
+    "Compared with 41 earlier decisions and found 1 conflict"
+   ]
+  },
+  {
+   "id": "mtg_vr",
+   "title": "Vendor certification review",
+   "start_at": "2026-09-26T04:00:00+00:00",
+   "end_at": "2026-09-26T04:45:00+00:00",
+   "organizer_id": "per_dewi",
+   "status": "PROCESSED",
+   "source": "calendar"
+  },
+  {
+   "id": "mtg_arch",
+   "title": "Architecture review",
+   "start_at": "2026-09-29T05:00:00+00:00",
+   "end_at": "2026-09-29T06:00:00+00:00",
+   "organizer_id": "per_jinwoo",
+   "status": "PROCESSED",
+   "source": "calendar"
+  },
+  {
+   "id": "mtg_sec",
+   "title": "Security and PCI review",
+   "start_at": "2026-09-30T06:00:00+00:00",
+   "end_at": "2026-09-30T06:45:00+00:00",
+   "organizer_id": "per_omar",
+   "status": "PROCESSED",
+   "source": "calendar"
+  },
+  {
+   "id": "mtg_qa",
+   "title": "QA readiness check",
+   "start_at": "2026-10-06T02:00:00+00:00",
+   "end_at": "2026-10-06T02:30:00+00:00",
+   "organizer_id": "per_dewi",
+   "status": "PROCESSED",
+   "source": "calendar"
+  },
+  {
+   "id": "mtg_cs",
+   "title": "Merchant communications",
+   "start_at": "2026-10-07T03:00:00+00:00",
+   "end_at": "2026-10-07T03:30:00+00:00",
+   "organizer_id": "per_rahul",
+   "status": "PROCESSED",
+   "source": "calendar"
+  },
+  {
+   "id": "mtg_ret",
+   "title": "Retry and resilience design",
+   "start_at": "2026-10-02T04:30:00+00:00",
+   "end_at": "2026-10-02T05:15:00+00:00",
+   "organizer_id": "per_priya",
+   "status": "PROCESSED",
+   "source": "calendar"
+  },
+  {
+   "id": "mtg_api",
+   "title": "API versioning sync",
+   "start_at": "2026-10-02T07:00:00+00:00",
+   "end_at": "2026-10-02T07:30:00+00:00",
+   "organizer_id": "per_rahul",
+   "status": "PROCESSED",
+   "source": "calendar"
+  }
+ ],
+ "meeting_attendees": [
+  {
+   "meeting_id": "mtg_qp",
+   "person_id": "per_aiko",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_qp",
+   "person_id": "per_mei",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_qp",
+   "person_id": "per_rahul",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_qp",
+   "person_id": "per_jinwoo",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_lp",
+   "person_id": "per_rahul",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_lp",
+   "person_id": "per_aiko",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_lp",
+   "person_id": "per_mei",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_lp",
+   "person_id": "per_jinwoo",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_lp",
+   "person_id": "per_dewi",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_pls",
+   "person_id": "per_aiko",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_pls",
+   "person_id": "per_rahul",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_pls",
+   "person_id": "per_mei",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_pls",
+   "person_id": "per_dewi",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_pls",
+   "person_id": "per_jinwoo",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_pls",
+   "person_id": "per_kobayashi",
+   "status": "invited",
+   "show_in_graph": 0
+  },
+  {
+   "meeting_id": "mtg_vr",
+   "person_id": "per_aiko",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_vr",
+   "person_id": "per_dewi",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_vr",
+   "person_id": "per_rahul",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_vr",
+   "person_id": "per_mei",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_vr",
+   "person_id": "per_sofia",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_arch",
+   "person_id": "per_aiko",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_arch",
+   "person_id": "per_jinwoo",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_arch",
+   "person_id": "per_mei",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_arch",
+   "person_id": "per_priya",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_arch",
+   "person_id": "per_omar",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_sec",
+   "person_id": "per_aiko",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_sec",
+   "person_id": "per_omar",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_sec",
+   "person_id": "per_sofia",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_sec",
+   "person_id": "per_jinwoo",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_sec",
+   "person_id": "per_mei",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_qa",
+   "person_id": "per_aiko",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_qa",
+   "person_id": "per_dewi",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_qa",
+   "person_id": "per_priya",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_qa",
+   "person_id": "per_rahul",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_qa",
+   "person_id": "per_kobayashi",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_cs",
+   "person_id": "per_aiko",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_cs",
+   "person_id": "per_rahul",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_cs",
+   "person_id": "per_sofia",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_cs",
+   "person_id": "per_kobayashi",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_cs",
+   "person_id": "per_mei",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_ret",
+   "person_id": "per_aiko",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_ret",
+   "person_id": "per_priya",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_ret",
+   "person_id": "per_jinwoo",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_ret",
+   "person_id": "per_dewi",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_api",
+   "person_id": "per_aiko",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_api",
+   "person_id": "per_rahul",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_api",
+   "person_id": "per_jinwoo",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_api",
+   "person_id": "per_kobayashi",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_pls",
+   "person_id": "per_priya",
+   "status": "attended",
+   "show_in_graph": 1
+  },
+  {
+   "meeting_id": "mtg_lp",
+   "person_id": "per_sofia",
+   "status": "attended",
+   "show_in_graph": 1
+  }
+ ],
+ "topics": [
+  {
+   "id": "top_launch",
+   "title": "Payments launch date"
+  },
+  {
+   "id": "top_retry",
+   "title": "Retry policy"
+  },
+  {
+   "id": "top_staging",
+   "title": "Load test staging data"
+  },
+  {
+   "id": "top_api",
+   "title": "API versioning"
+  },
+  {
+   "id": "top_ledger",
+   "title": "Ledger schema"
+  },
+  {
+   "id": "top_security",
+   "title": "PCI and security review"
+  },
+  {
+   "id": "top_comms",
+   "title": "Merchant communications"
+  }
+ ],
+ "decisions": [
+  {
+   "id": "dec_r1",
+   "topic_id": "top_retry",
+   "meeting_id": "mtg_ret",
+   "statement": "Retry failed webhooks three times with jitter, then dead-letter",
+   "short_title": "3 retries then dead-letter",
+   "quote": "Three attempts with jitter, and after that it goes to the dead-letter queue. No infinite loops.",
+   "quote_lang": "en",
+   "speaker_id": "per_priya",
+   "offset_sec": 600,
+   "owner_id": "per_jinwoo",
+   "owner_confidence": 1.0,
+   "deadline": "2026-10-14",
+   "status": "ACTIVE",
+   "conflict_state": "NONE",
+   "task_title": "Implement the webhook retry handler",
+   "task_short": "Retry handler"
+  },
+  {
+   "id": "dec_r2",
+   "topic_id": "top_retry",
+   "meeting_id": "mtg_ret",
+   "statement": "Cap retries per request across all attempts, not per attempt",
+   "short_title": "Per-request retry budget",
+   "quote": "リトライ予算はリクエスト全体で数えます。試行ごとではありません。",
+   "quote_lang": "ja",
+   "speaker_id": "per_priya",
+   "offset_sec": 1500,
+   "owner_id": "per_priya",
+   "owner_confidence": 1.0,
+   "deadline": "2026-10-20",
+   "status": "ACTIVE",
+   "conflict_state": "NONE",
+   "translation": "The retry budget is counted per request overall, not per attempt.",
+   "task_title": "Add the retry budget to the client",
+   "task_short": "Retry budget"
+  },
+  {
+   "id": "dec_a1",
+   "topic_id": "top_api",
+   "meeting_id": "mtg_api",
+   "statement": "Version the public API in the URL path from v2 onward",
+   "short_title": "Version API in URL path",
+   "quote": "v2 and up live in the path. Headers are too easy to lose behind a proxy.",
+   "quote_lang": "en",
+   "speaker_id": "per_rahul",
+   "offset_sec": 540,
+   "owner_id": "per_jinwoo",
+   "owner_confidence": 1.0,
+   "deadline": "2026-10-14",
+   "status": "ACTIVE",
+   "conflict_state": "NONE",
+   "task_title": "Publish the API versioning proposal",
+   "task_short": "API versioning"
+  },
+  {
+   "id": "dec_a2",
+   "topic_id": "top_api",
+   "meeting_id": "mtg_api",
+   "statement": "Keep v1 endpoints alive for six months after v2 ships",
+   "short_title": "v1 sunset in six months",
+   "quote": "v1 stays for six months after v2 ships, then we announce the sunset.",
+   "quote_lang": "en",
+   "speaker_id": "per_kobayashi",
+   "offset_sec": 1100,
+   "owner_id": "per_rahul",
+   "owner_confidence": 1.0,
+   "deadline": "2027-05-15",
+   "status": "ACTIVE",
+   "conflict_state": "NONE"
+  },
+  {
+   "id": "dec_l2",
+   "topic_id": "top_ledger",
+   "meeting_id": "mtg_sec",
+   "statement": "Encrypt ledger entries at rest with per-tenant keys",
+   "short_title": "Per-tenant ledger keys",
+   "quote": "Per-tenant keys for the ledger. Omar will own the key rotation story.",
+   "quote_lang": "en",
+   "speaker_id": "per_omar",
+   "offset_sec": 1750,
+   "owner_id": "per_omar",
+   "owner_confidence": 1.0,
+   "deadline": "2026-10-25",
+   "status": "ACTIVE",
+   "conflict_state": "NONE",
+   "task_title": "Design per-tenant key rotation",
+   "task_short": "Key rotation"
+  },
+  {
+   "id": "dec_d1",
+   "topic_id": "top_launch",
+   "meeting_id": "mtg_qp",
+   "statement": "Target an early November launch",
+   "short_title": "Early November target",
+   "quote": "Early November is the target. Let’s work back from there.",
+   "quote_lang": "en",
+   "speaker_id": "per_mei",
+   "offset_sec": 840,
+   "owner_id": "per_mei",
+   "owner_confidence": 1.0,
+   "deadline": "2026-11-05",
+   "status": "SUPERSEDED",
+   "conflict_state": "NONE"
+  },
+  {
+   "id": "dec_v1",
+   "topic_id": "top_launch",
+   "meeting_id": "mtg_vr",
+   "statement": "Vendor sandbox certification must pass before any launch date is final",
+   "short_title": "Certification gates launch",
+   "quote": "Nothing ships until the sandbox certification run is green. That is the gate.",
+   "quote_lang": "en",
+   "speaker_id": "per_dewi",
+   "offset_sec": 420,
+   "owner_id": "per_dewi",
+   "owner_confidence": 1.0,
+   "deadline": "2026-11-09",
+   "status": "ACTIVE",
+   "conflict_state": "NONE",
+   "task_title": "Track vendor sandbox certification",
+   "task_short": "Certification run"
+  },
+  {
+   "id": "dec_v5",
+   "topic_id": "top_launch",
+   "meeting_id": "mtg_arch",
+   "statement": "Soft launch in Japan only, then go global",
+   "short_title": "Japan-only soft launch",
+   "quote": "ひとまず日本だけでソフトローンチして、問題なければ全体に広げましょう。",
+   "quote_lang": "ja",
+   "speaker_id": "per_mei",
+   "offset_sec": 1210,
+   "owner_id": "per_mei",
+   "owner_confidence": 1.0,
+   "deadline": "2026-11-01",
+   "status": "SUPERSEDED",
+   "conflict_state": "NONE",
+   "translation": "Let's soft launch in Japan only first, then expand if there are no problems."
+  },
+  {
+   "id": "dec_d2",
+   "topic_id": "top_launch",
+   "meeting_id": "mtg_lp",
+   "statement": "Lock the payments launch for 1 November",
+   "short_title": "Lock 1 November launch",
+   "quote": "Let’s lock 1 November for the launch.",
+   "quote_lang": "en",
+   "speaker_id": "per_rahul",
+   "offset_sec": 610,
+   "owner_id": "per_rahul",
+   "owner_confidence": 1.0,
+   "deadline": "2026-11-01",
+   "status": "ACTIVE",
+   "conflict_state": "SUPERSEDES",
+   "supersedes_decision_id": "dec_d1"
+  },
+  {
+   "id": "dec_v2",
+   "topic_id": "top_launch",
+   "meeting_id": "mtg_arch",
+   "statement": "Freeze the ledger schema by 10 October",
+   "short_title": "Freeze ledger schema",
+   "quote": "Ledger schema is frozen on the tenth. Anything after that goes through a migration review.",
+   "quote_lang": "en",
+   "speaker_id": "per_jinwoo",
+   "offset_sec": 2410,
+   "owner_id": "per_jinwoo",
+   "owner_confidence": 1.0,
+   "deadline": "2026-10-10",
+   "status": "ACTIVE",
+   "conflict_state": "NONE",
+   "task_title": "Sign off the ledger schema v3",
+   "task_short": "Ledger sign-off"
+  },
+  {
+   "id": "dec_v3",
+   "topic_id": "top_launch",
+   "meeting_id": "mtg_arch",
+   "statement": "Launch behind a 10% feature flag instead of a regional soft launch",
+   "short_title": "10% feature flag rollout",
+   "quote": "A percentage flag is safer than a region split. Ten percent, then ramp daily.",
+   "quote_lang": "en",
+   "speaker_id": "per_priya",
+   "offset_sec": 1890,
+   "owner_id": "per_priya",
+   "owner_confidence": 1.0,
+   "deadline": "2026-11-08",
+   "status": "ACTIVE",
+   "conflict_state": "SUPERSEDES",
+   "supersedes_decision_id": "dec_v5",
+   "task_title": "Build the 10% rollout flag",
+   "task_short": "Rollout flag"
+  },
+  {
+   "id": "dec_v6",
+   "topic_id": "top_launch",
+   "meeting_id": "mtg_sec",
+   "statement": "Security and PCI sign-off is required before go-live",
+   "short_title": "PCI sign-off before go-live",
+   "quote": "Sofia needs the PCI attestation signed before we flip anything in production.",
+   "quote_lang": "en",
+   "speaker_id": "per_omar",
+   "offset_sec": 960,
+   "owner_id": "per_sofia",
+   "owner_confidence": 1.0,
+   "deadline": "2026-11-06",
+   "status": "ACTIVE",
+   "conflict_state": "NONE",
+   "task_title": "Collect the PCI attestation",
+   "task_short": "PCI attestation"
+  },
+  {
+   "id": "dec_v4",
+   "topic_id": "top_launch",
+   "meeting_id": "mtg_qa",
+   "statement": "Run the full load test on staging before go-live",
+   "short_title": "Full load test first",
+   "quote": "Tolong jalankan load test penuh di staging sebelum go-live, bukan hanya smoke test.",
+   "quote_lang": "id",
+   "speaker_id": "per_dewi",
+   "offset_sec": 780,
+   "owner_id": "per_dewi",
+   "owner_confidence": 1.0,
+   "deadline": "2026-10-30",
+   "status": "ACTIVE",
+   "conflict_state": "NONE",
+   "translation": "Please run the full load test on staging before go-live, not just a smoke test.",
+   "task_title": "Run the full staging load test",
+   "task_short": "Load test"
+  },
+  {
+   "id": "dec_v7",
+   "topic_id": "top_launch",
+   "meeting_id": "mtg_cs",
+   "statement": "Tell merchants about the launch date one week before it happens",
+   "short_title": "Notify merchants a week ahead",
+   "quote": "Merchants hear it from us a week early, with the new date and the rollout plan.",
+   "quote_lang": "en",
+   "speaker_id": "per_rahul",
+   "offset_sec": 300,
+   "owner_id": "per_rahul",
+   "owner_confidence": 1.0,
+   "deadline": "2026-11-08",
+   "status": "ACTIVE",
+   "conflict_state": "NONE",
+   "task_title": "Draft the merchant announcement",
+   "task_short": "Merchant notice"
+  },
+  {
+   "id": "dec_d3",
+   "topic_id": "top_launch",
+   "meeting_id": "mtg_pls",
+   "statement": "Move the payments launch to 15 November",
+   "short_title": "Move launch to 15 Nov",
+   "quote": "決済ベンダーの認証が遅れているので、リリースは11月15日に延期しましょう。",
+   "quote_lang": "ja",
+   "translation": "Because the payments vendor’s certification is delayed, let’s postpone the release to 15 November.",
+   "speaker_id": "per_mei",
+   "offset_sec": 1420,
+   "owner_id": "per_aiko",
+   "owner_confidence": 0.94,
+   "deadline": "2026-11-15",
+   "task_title": "Update the release checklist for 15 Nov",
+   "task_short": "Release checklist",
+   "status": "PROPOSED",
+   "conflict_state": "PENDING",
+   "conflict_target_id": "dec_d2",
+   "earlier_value": "1 Nov",
+   "proposed_value": "15 Nov",
+   "conflict_note": "Mentions the vendor delay. Does not say it replaces the earlier decision.",
+   "conflict_rationale": "Both decisions set the payments launch date. Choose what happens to the earlier one before this becomes a task."
+  },
+  {
+   "id": "dec_c2",
+   "topic_id": "top_staging",
+   "meeting_id": "mtg_pls",
+   "statement": "Send the staging data to Dewi by Monday",
+   "short_title": "Send staging data",
+   "quote": "Aiko-san, tolong kirim data staging sebelum hari Senin, ya.",
+   "quote_lang": "id",
+   "translation": "Aiko, please send the staging data before Monday.",
+   "speaker_id": "per_dewi",
+   "offset_sec": 1865,
+   "owner_id": "per_aiko",
+   "owner_confidence": 0.97,
+   "deadline": "2026-10-12",
+   "task_title": "Send the staging data to Dewi",
+   "task_short": "Send staging data",
+   "status": "PROPOSED",
+   "conflict_state": "NONE"
+  },
+  {
+   "id": "dec_c3",
+   "topic_id": "top_retry",
+   "meeting_id": "mtg_pls",
+   "statement": "Update the retry policy document by Friday",
+   "short_title": "Update retry policy",
+   "quote": "Aiko-san、リトライのポリシー文書を金曜日までにお願いします。",
+   "quote_lang": "ja",
+   "translation": "Aiko, please update the retry policy document by Friday.",
+   "speaker_id": "per_jinwoo",
+   "offset_sec": 2292,
+   "owner_id": "per_aiko",
+   "owner_confidence": 0.55,
+   "owner_candidates": [
+    "per_aiko",
+    "per_kobayashi"
+   ],
+   "deadline": "2026-10-16",
+   "task_title": "Update the retry policy document",
+   "task_short": "Retry policy doc",
+   "status": "PROPOSED",
+   "conflict_state": "NONE"
+  }
+ ],
+ "tasks": [
+  {
+   "id": "tsk_p1",
+   "owner_id": "usr_aiko",
+   "title": "Fix the idempotency key bug in the refund webhook",
+   "estimate_min": 90,
+   "plan_date": "2026-10-09",
+   "due": "2026-10-12",
+   "priority_slot": 1,
+   "meta": {
+    "importance": 0.9,
+    "blocks_others": true,
+    "commitment": true,
+    "blocks_label": "the vendor certification run",
+    "source_label": "Added by you",
+    "short": "refund webhook bug"
+   }
+  },
+  {
+   "id": "tsk_p2",
+   "owner_id": "usr_aiko",
+   "title": "Review the API versioning proposal",
+   "estimate_min": 45,
+   "plan_date": "2026-10-09",
+   "due": "2026-10-14",
+   "priority_slot": 2,
+   "meta": {
+    "importance": 0.7,
+    "blocks_others": true,
+    "commitment": true,
+    "waiting": {
+     "person": "Rahul",
+     "what": "review",
+     "consequence": "he can share it with the vendor"
+    },
+    "source_label": "From the 2 Oct sync",
+    "short": "API versioning review"
+   }
+  },
+  {
+   "id": "tsk_p3",
+   "owner_id": "usr_aiko",
+   "title": "Prepare staging data for the load test",
+   "estimate_min": 60,
+   "plan_date": "2026-10-09",
+   "due": "2026-10-16",
+   "priority_slot": 3,
+   "meta": {
+    "importance": 0.6,
+    "blocks_others": true,
+    "commitment": true,
+    "needs": {
+     "person": "Dewi",
+     "consequence": "the load test can start"
+    },
+    "source_label": "From the 6 Oct sync",
+    "short": "staging data"
+   }
+  },
+  {
+   "id": "tsk_t1",
+   "owner_id": "usr_aiko",
+   "title": "Reply to Jin-woo about the schema migration",
+   "estimate_min": 15,
+   "plan_date": "2026-10-09",
+   "meta": {
+    "importance": 0.4
+   }
+  },
+  {
+   "id": "tsk_t2",
+   "owner_id": "usr_aiko",
+   "title": "Review pull request 482 (logging changes)",
+   "estimate_min": 30,
+   "plan_date": "2026-10-09",
+   "meta": {
+    "importance": 0.4
+   }
+  },
+  {
+   "id": "tsk_t3",
+   "owner_id": "usr_aiko",
+   "title": "Update the runbook for payments alerts",
+   "estimate_min": 40,
+   "plan_date": "2026-10-09",
+   "meta": {
+    "importance": 0.35
+   }
+  },
+  {
+   "id": "tsk_t4",
+   "owner_id": "usr_aiko",
+   "title": "Fix the flaky checkout test",
+   "estimate_min": 25,
+   "plan_date": "2026-10-09",
+   "carried_over_from": "2026-10-08",
+   "meta": {
+    "importance": 0.4
+   }
+  },
+  {
+   "id": "tsk_t5",
+   "owner_id": "usr_aiko",
+   "title": "Book a slot for the vendor call",
+   "estimate_min": 10,
+   "plan_date": "2026-10-09",
+   "meta": {
+    "importance": 0.3
+   }
+  },
+  {
+   "id": "tsk_g1",
+   "owner_id": "usr_aiko",
+   "title": "Draft the launch checklist",
+   "state": "DONE",
+   "source_decision_id": "dec_d1",
+   "google_task_id": "gt_seed_1",
+   "synced": 1,
+   "meta": {
+    "short": "Draft checklist"
+   }
+  },
+  {
+   "id": "tsk_g2",
+   "owner_id": "usr_aiko",
+   "title": "Book the vendor certification slot",
+   "state": "DONE",
+   "source_decision_id": "dec_d2",
+   "google_task_id": "gt_seed_2",
+   "synced": 1,
+   "meta": {
+    "short": "Book vendor slot"
+   }
+  },
+  {
+   "id": "tsk_g3",
+   "owner_id": "usr_aiko",
+   "title": "Track vendor sandbox certification",
+   "state": "OPEN",
+   "source_decision_id": "dec_v1",
+   "meta": {
+    "short": "Certification run"
+   },
+   "due": "2026-11-09",
+   "estimate_min": 30,
+   "google_task_id": "gt_tsk_g3",
+   "synced": 1
+  },
+  {
+   "id": "tsk_g4",
+   "owner_id": "usr_aiko",
+   "title": "Build the 10% rollout flag",
+   "state": "OPEN",
+   "source_decision_id": "dec_v3",
+   "meta": {
+    "short": "Rollout flag"
+   },
+   "due": "2026-11-08",
+   "estimate_min": 240,
+   "google_task_id": "gt_tsk_g4",
+   "synced": 1
+  },
+  {
+   "id": "tsk_g5",
+   "owner_id": "usr_aiko",
+   "title": "Sign off the ledger schema v3",
+   "state": "DONE",
+   "source_decision_id": "dec_v2",
+   "meta": {
+    "short": "Ledger sign-off"
+   },
+   "google_task_id": "gt_tsk_g5",
+   "synced": 1
+  },
+  {
+   "id": "tsk_g6",
+   "owner_id": "usr_aiko",
+   "title": "Collect the PCI attestation",
+   "state": "OPEN",
+   "source_decision_id": "dec_v6",
+   "meta": {
+    "short": "PCI attestation"
+   },
+   "due": "2026-11-06",
+   "estimate_min": 60,
+   "google_task_id": "gt_tsk_g6",
+   "synced": 1
+  },
+  {
+   "id": "tsk_g7",
+   "owner_id": "usr_aiko",
+   "title": "Run the full staging load test",
+   "state": "OPEN",
+   "source_decision_id": "dec_v4",
+   "meta": {
+    "short": "Load test"
+   },
+   "due": "2026-10-30",
+   "estimate_min": 180,
+   "google_task_id": "gt_tsk_g7",
+   "synced": 1
+  },
+  {
+   "id": "tsk_g8",
+   "owner_id": "usr_aiko",
+   "title": "Draft the merchant announcement",
+   "state": "OPEN",
+   "source_decision_id": "dec_v7",
+   "meta": {
+    "short": "Merchant notice"
+   },
+   "due": "2026-11-08",
+   "estimate_min": 45,
+   "google_task_id": "gt_tsk_g8",
+   "synced": 1
+  },
+  {
+   "id": "tsk_g9",
+   "owner_id": "usr_aiko",
+   "title": "Implement the webhook retry handler",
+   "state": "DONE",
+   "source_decision_id": "dec_r1",
+   "meta": {
+    "short": "Retry handler"
+   },
+   "google_task_id": "gt_tsk_g9",
+   "synced": 1
+  },
+  {
+   "id": "tsk_g10",
+   "owner_id": "usr_aiko",
+   "title": "Publish the API versioning proposal",
+   "state": "DONE",
+   "source_decision_id": "dec_a1",
+   "meta": {
+    "short": "API versioning"
+   },
+   "google_task_id": "gt_tsk_g10",
+   "synced": 1
+  },
+  {
+   "id": "tsk_t6",
+   "owner_id": "usr_aiko",
+   "title": "Answer Omar about key rotation options",
+   "estimate_min": 20,
+   "plan_date": "2026-10-09",
+   "meta": {
+    "importance": 0.45
+   }
+  },
+  {
+   "id": "tsk_t7",
+   "owner_id": "usr_aiko",
+   "title": "Share the retry budget article with Priya",
+   "estimate_min": 10,
+   "plan_date": "2026-10-09",
+   "meta": {
+    "importance": 0.25
+   }
+  },
+  {
+   "id": "tsk_t8",
+   "owner_id": "usr_aiko",
+   "title": "Check the sandbox certification dashboard",
+   "estimate_min": 15,
+   "plan_date": "2026-10-09",
+   "meta": {
+    "importance": 0.5
+   }
+  }
+ ],
+ "plan_blocks": [
+  {
+   "id": "blk_1",
+   "owner_id": "usr_aiko",
+   "plan_date": "2026-10-09",
+   "task_id": "tsk_p1",
+   "title": "Focus: refund webhook bug",
+   "why": "longest free window",
+   "start_min": 630,
+   "end_min": 720
+  },
+  {
+   "id": "blk_2",
+   "owner_id": "usr_aiko",
+   "plan_date": "2026-10-09",
+   "task_id": "tsk_p2",
+   "title": "Focus: API versioning review",
+   "why": "right after the sync",
+   "start_min": 840,
+   "end_min": 885
+  },
+  {
+   "id": "blk_3",
+   "owner_id": "usr_aiko",
+   "plan_date": "2026-10-09",
+   "task_id": "tsk_p3",
+   "title": "Focus: staging data",
+   "why": "after the design review",
+   "start_min": 960,
+   "end_min": 1020
+  }
+ ],
+ "notes": [
+  {
+   "id": "note_scratch",
+   "owner_id": "usr_aiko",
+   "scope": "day",
+   "scope_date": "2026-10-09",
+   "title": "Scratchpad",
+   "text": "Retry policy: three attempts, then dead-letter.\nAsk Dewi if staging can take the full test load.\nShow decision links in pull request descriptions?",
+   "updated_at": "2026-10-09T01:10:00+00:00"
+  },
+  {
+   "id": "note_design",
+   "owner_id": "usr_aiko",
+   "scope": "global",
+   "title": "Design notes, 3 Oct",
+   "text": "Retry policy: three attempts, then dead-letter.",
+   "updated_at": "2026-10-03T06:00:00+00:00"
+  },
+  {
+   "id": "note_pci",
+   "owner_id": "usr_aiko",
+   "scope": "global",
+   "title": "PCI review, 30 Sep",
+   "text": "Omar wants key rotation designed before the attestation.\nSofia: attestation needs the pen test report.\nAsk Jin-woo whether ledger v3 changes the audit trail.",
+   "updated_at": "2026-09-30T08:00:00+00:00"
+  },
+  {
+   "id": "note_flag",
+   "owner_id": "usr_aiko",
+   "scope": "global",
+   "title": "Rollout flag thoughts",
+   "text": "Flag per merchant id, not per request, so a merchant never flips mid-session.\nPriya prefers auto-pause on error rate.",
+   "updated_at": "2026-10-01T05:00:00+00:00"
+  }
+ ],
+ "ideas": [
+  {
+   "id": "ide_1",
+   "owner_id": "usr_aiko",
+   "text": "Batch webhook retries behind a queue",
+   "detail": "Instead of retrying inline, push failed webhooks to a queue and retry them in batches with jitter.",
+   "tags": [
+    "retries"
+   ],
+   "created_at": "2026-09-29T03:00:00+00:00"
+  },
+  {
+   "id": "ide_2",
+   "owner_id": "usr_aiko",
+   "text": "Show decision links in pull request descriptions",
+   "detail": "Link each pull request to the decision it implements.",
+   "tags": [
+    "docs"
+   ],
+   "created_at": "2026-10-02T03:00:00+00:00"
+  },
+  {
+   "id": "ide_3",
+   "owner_id": "usr_aiko",
+   "text": "Dashboard of decisions that block a task",
+   "detail": "Show every open task that is waiting on an unresolved decision, grouped by owner.",
+   "tags": [
+    "docs",
+    "graph"
+   ],
+   "created_at": "2026-10-05T03:00:00+00:00"
+  },
+  {
+   "id": "ide_4",
+   "owner_id": "usr_aiko",
+   "text": "Auto-pause the rollout on error rate",
+   "detail": "Tie the feature flag ramp to the error budget so it pauses itself.",
+   "tags": [
+    "rollout",
+    "retries"
+   ],
+   "created_at": "2026-10-06T03:00:00+00:00"
+  },
+  {
+   "id": "ide_5",
+   "owner_id": "usr_aiko",
+   "text": "Replay dead-lettered webhooks from the console",
+   "detail": "A small admin action to replay messages from the dead-letter queue after a fix.",
+   "tags": [
+    "retries"
+   ],
+   "created_at": "2026-10-07T03:00:00+00:00"
+  }
+ ],
+ "links": [
+  {
+   "id": "lnk_1",
+   "owner_id": "usr_aiko",
+   "url": "https://example.com/retry-budgets",
+   "canonical_url": "https://example.com/retry-budgets",
+   "title": "Retry budgets for service clients",
+   "summary": "Cap retries per request across all attempts so a struggling service is not flooded.",
+   "passage": "Cap retries per request across all attempts, not per attempt, so a struggling service is not hit by a retry storm.",
+   "status": "ready",
+   "saved_at": "2026-10-01T03:00:00+00:00"
+  },
+  {
+   "id": "lnk_2",
+   "owner_id": "usr_aiko",
+   "url": "https://example.com/decision-records",
+   "canonical_url": "https://example.com/decision-records",
+   "title": "Writing decision records people actually read",
+   "summary": "Keep each record to the choice, the reason and what it replaces.",
+   "passage": "Keep each record to the choice, the reason and what it replaces.",
+   "status": "ready",
+   "saved_at": "2026-10-04T03:00:00+00:00"
+  },
+  {
+   "id": "lnk_3",
+   "owner_id": "usr_aiko",
+   "url": "https://example.com/progressive-delivery",
+   "canonical_url": "https://example.com/progressive-delivery",
+   "title": "Progressive delivery with feature flags",
+   "summary": "Ramp exposure in small steps and pause automatically when error rates rise.",
+   "passage": "Ramp exposure in small steps and pause automatically when error rates rise.",
+   "status": "ready",
+   "saved_at": "2026-10-03T03:00:00+00:00"
+  },
+  {
+   "id": "lnk_4",
+   "owner_id": "usr_aiko",
+   "url": "https://example.com/pci-key-management",
+   "canonical_url": "https://example.com/pci-key-management",
+   "title": "Key management for PCI scope",
+   "summary": "Rotate per-tenant keys on a schedule and keep rotation evidence for auditors.",
+   "passage": "Rotate per-tenant keys on a schedule and keep rotation evidence for auditors.",
+   "status": "ready",
+   "saved_at": "2026-10-05T03:00:00+00:00"
+  },
+  {
+   "id": "lnk_5",
+   "owner_id": "usr_aiko",
+   "url": "https://example.com/api-versioning",
+   "canonical_url": "https://example.com/api-versioning",
+   "title": "API versioning: path, header or date?",
+   "summary": "Path versions are easiest to cache and debug, headers are easiest to lose behind proxies.",
+   "passage": "Path versions are easiest to cache and debug, headers are easiest to lose behind proxies.",
+   "status": "ready",
+   "saved_at": "2026-10-06T03:00:00+00:00"
+  }
+ ],
+ "documents": [
+  {
+   "id": "doc_cert",
+   "title": "Payments certification plan",
+   "kind": "doc",
+   "drive_url": "https://docs.google.com/document/d/mock-cert-plan",
+   "passage": "Sandbox certification is expected to complete in the week of 9 November.",
+   "edited_at": "2026-10-06T05:00:00+00:00",
+   "edited_by": "per_dewi",
+   "acl": [
+    "per_aiko",
+    "per_rahul",
+    "per_mei",
+    "per_dewi",
+    "per_jinwoo",
+    "per_kobayashi",
+    "per_priya",
+    "per_omar",
+    "per_sofia"
+   ]
+  },
+  {
+   "id": "doc_sla",
+   "title": "Payments vendor SLA",
+   "kind": "doc",
+   "drive_url": "https://docs.google.com/document/d/mock-doc_sla",
+   "passage": "The vendor guarantees a certification turnaround of ten business days from a complete submission.",
+   "edited_at": "2026-09-25T06:00:00+00:00",
+   "edited_by": "per_sofia",
+   "acl": [
+    "per_aiko",
+    "per_rahul",
+    "per_mei",
+    "per_sofia",
+    "per_dewi"
+   ]
+  },
+  {
+   "id": "doc_ledger",
+   "title": "Ledger schema v3",
+   "kind": "doc",
+   "drive_url": "https://docs.google.com/document/d/mock-doc_ledger",
+   "passage": "Schema v3 adds per-tenant encryption keys and an append-only entries table. Freeze date is 10 October.",
+   "edited_at": "2026-10-02T09:00:00+00:00",
+   "edited_by": "per_jinwoo",
+   "acl": [
+    "per_aiko",
+    "per_jinwoo",
+    "per_mei",
+    "per_omar",
+    "per_priya"
+   ]
+  },
+  {
+   "id": "doc_pci",
+   "title": "PCI DSS attestation checklist",
+   "kind": "sheet",
+   "drive_url": "https://docs.google.com/document/d/mock-doc_pci",
+   "passage": "Attestation requires the penetration test report, key management policy and access review, all signed by compliance.",
+   "edited_at": "2026-10-05T04:00:00+00:00",
+   "edited_by": "per_omar",
+   "acl": [
+    "per_aiko",
+    "per_omar",
+    "per_sofia",
+    "per_mei"
+   ]
+  },
+  {
+   "id": "doc_load",
+   "title": "Staging load test plan",
+   "kind": "doc",
+   "drive_url": "https://docs.google.com/document/d/mock-doc_load",
+   "passage": "Full load test simulates 3x peak traffic for two hours on staging with production-sized data.",
+   "edited_at": "2026-10-07T08:00:00+00:00",
+   "edited_by": "per_dewi",
+   "acl": [
+    "per_aiko",
+    "per_dewi",
+    "per_priya",
+    "per_jinwoo",
+    "per_mei"
+   ]
+  },
+  {
+   "id": "doc_rollout",
+   "title": "Rollout and feature flag runbook",
+   "kind": "doc",
+   "drive_url": "https://docs.google.com/document/d/mock-doc_rollout",
+   "passage": "Ramp the flag from 10% to 100% over five days, pausing automatically if the error rate exceeds one percent.",
+   "edited_at": "2026-10-08T03:00:00+00:00",
+   "edited_by": "per_priya",
+   "acl": [
+    "per_aiko",
+    "per_priya",
+    "per_mei",
+    "per_dewi",
+    "per_rahul"
+   ]
+  },
+  {
+   "id": "doc_comms",
+   "title": "Merchant announcement draft",
+   "kind": "doc",
+   "drive_url": "https://docs.google.com/document/d/mock-doc_comms",
+   "passage": "Merchants will be told the new launch date and the phased rollout one week in advance by email and in the dashboard.",
+   "edited_at": "2026-10-08T07:00:00+00:00",
+   "edited_by": "per_kobayashi",
+   "acl": [
+    "per_aiko",
+    "per_rahul",
+    "per_kobayashi",
+    "per_sofia"
+   ]
+  }
+ ],
+ "user_settings": []
+}

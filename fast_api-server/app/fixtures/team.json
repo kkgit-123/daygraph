@@ -1,0 +1,140 @@
+{
+  "week_label": "Week of 6 October",
+  "stats": [
+    {
+      "key": "decisions",
+      "label": "Decisions this week",
+      "value": "19",
+      "note": "2 need your review",
+      "tone": "conflict"
+    },
+    {
+      "key": "conflicts",
+      "label": "Open conflicts",
+      "value": "1",
+      "note": "Launch date changed 1 Nov to 15 Nov",
+      "tone": "conflict"
+    },
+    {
+      "key": "tasks",
+      "label": "Tasks done",
+      "value": "27 of 41",
+      "note": "On track for Friday",
+      "tone": "ok"
+    },
+    {
+      "key": "meetings",
+      "label": "Meetings analysed",
+      "value": "10",
+      "note": "3 transcripts in review",
+      "tone": "ok"
+    }
+  ],
+  "members": [
+    {
+      "person_id": "per_aiko",
+      "name": "Aiko Tanaka",
+      "role": "Developer",
+      "initials": "AT",
+      "bg": "#C9CEF8",
+      "color": "#1B2150",
+      "done": 5,
+      "open": 3,
+      "status": "on_track",
+      "focus": "Payments retry handler, due Friday"
+    },
+    {
+      "person_id": "per_taro",
+      "name": "Taro Sato",
+      "role": "Developer",
+      "initials": "TS",
+      "bg": "#BFE8D6",
+      "color": "#0B4A38",
+      "done": 4,
+      "open": 2,
+      "status": "on_track",
+      "focus": "Refund idempotency keys"
+    },
+    {
+      "person_id": "per_jinwoo",
+      "name": "Jin-woo Park",
+      "role": "Backend engineer",
+      "initials": "JP",
+      "bg": "#CFE3F8",
+      "color": "#12355A",
+      "done": 2,
+      "open": 4,
+      "status": "waiting",
+      "focus": "Waiting on your sign-off for the ledger schema"
+    },
+    {
+      "person_id": "per_dewi",
+      "name": "Dewi Lestari",
+      "role": "QA engineer",
+      "initials": "DL",
+      "bg": "#F8CFE0",
+      "color": "#5A1536",
+      "done": 1,
+      "open": 2,
+      "status": "on_track",
+      "focus": "Regression plan for the 15 Nov date"
+    },
+    {
+      "person_id": "per_priya",
+      "name": "Priya Nair",
+      "role": "SRE",
+      "initials": "PN",
+      "bg": "#FDE3C8",
+      "color": "#5A2A00",
+      "done": 6,
+      "open": 3,
+      "status": "on_track",
+      "focus": "10% rollout flag and auto-pause"
+    },
+    {
+      "person_id": "per_omar",
+      "name": "Omar Haddad",
+      "role": "Security engineer",
+      "initials": "OH",
+      "bg": "#D5F0E0",
+      "color": "#0E4A2C",
+      "done": 3,
+      "open": 4,
+      "status": "waiting",
+      "focus": "Waiting on the ledger schema for key rotation design"
+    },
+    {
+      "person_id": "per_sofia",
+      "name": "Sofia Reyes",
+      "role": "Compliance lead",
+      "initials": "SR",
+      "bg": "#EBD9F7",
+      "color": "#40195E",
+      "done": 2,
+      "open": 2,
+      "status": "on_track",
+      "focus": "PCI attestation, due 6 Nov"
+    }
+  ],
+  "waiting": [
+    {
+      "person_id": "per_jinwoo",
+      "name": "Jin-woo Park",
+      "text": "needs your review of the launch-date conflict before ledger work starts",
+      "to": "/review"
+    },
+    {
+      "person_id": "per_omar",
+      "name": "Omar Haddad",
+      "text": "needs the frozen ledger schema before key rotation design can start",
+      "to": "/graph"
+    },
+    {
+      "person_id": "per_sofia",
+      "name": "Sofia Reyes",
+      "text": "is waiting for the penetration test report to finish the PCI attestation",
+      "to": "/ask"
+    }
+  ],
+  "brief": "Payments launch is on track for 15 Nov, but the date changed from 1 Nov in the 9 Oct sync. Certification is the gate, the ledger schema is frozen, and the rollout moves to a 10% feature flag. Aiko owns the retry handler and is on track. Jin-woo and Omar are each waiting on one decision. Two decisions are still to review."
+}

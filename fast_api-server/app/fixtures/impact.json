@@ -1,0 +1,101 @@
+{
+ "stats": [
+  {
+   "key": "decisions",
+   "value": 14,
+   "label": "Decisions captured this week",
+   "note": "4 more than last week",
+   "tone": "ok",
+   "series": [
+    2,
+    6,
+    4,
+    12,
+    10,
+    18,
+    20
+   ]
+  },
+  {
+   "key": "on_time",
+   "value": "9 of 11",
+   "percent": 82,
+   "label": "Tasks done by their deadline",
+   "note": "82% on time",
+   "tone": "ok",
+   "series": [
+    6,
+    2,
+    12,
+    10,
+    16,
+    12,
+    20
+   ]
+  },
+  {
+   "key": "conflicts",
+   "value": 2,
+   "label": "Conflicts caught early",
+   "note": "",
+   "tone": "conflict",
+   "series": [
+    0,
+    0,
+    10,
+    0,
+    0,
+    14,
+    14
+   ]
+  },
+  {
+   "key": "review_time",
+   "value": "4 min",
+   "label": "Time to review a meeting",
+   "note": "Timed on 3 sample meetings",
+   "tone": "quiet",
+   "series": [
+    18,
+    16,
+    12,
+    14,
+    8,
+    4,
+    2
+   ]
+  }
+ ],
+ "weekly": [
+  {
+   "day": "Mon",
+   "focus_h": 3.5,
+   "meeting_h": 1.5,
+   "is_today": false
+  },
+  {
+   "day": "Tue",
+   "focus_h": 2.5,
+   "meeting_h": 3,
+   "is_today": false
+  },
+  {
+   "day": "Wed",
+   "focus_h": 4,
+   "meeting_h": 1,
+   "is_today": false
+  },
+  {
+   "day": "Thu",
+   "focus_h": 3,
+   "meeting_h": 2,
+   "is_today": false
+  },
+  {
+   "day": "Fri",
+   "focus_h": 3.25,
+   "meeting_h": 1.75,
+   "is_today": true
+  }
+ ]
+}
