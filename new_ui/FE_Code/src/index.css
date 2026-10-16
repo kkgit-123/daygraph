@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Noto+Serif+JP:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
+/*
+  Design tokens. Every utility (bg-surface, text-muted, border-border...) reads a CSS variable,
+  so the light and dark themes below only swap variable values. Light is the base; dark overrides.
+*/
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-serif: 'Newsreader', Georgia, serif;
+  --font-jp: 'Noto Serif JP', 'Yu Mincho', 'Hiragino Mincho ProN', 'Newsreader', serif;
+
+  /* surfaces */
+  --color-ground: #F8FAFD;      --color-surface: #FFFFFF;     --color-surface-2: #F1F5FB;
+  --color-sidebar: #FFFFFF;     --color-rail: #1F2A44;        --color-overlay: rgba(32, 33, 36, .32);
+  /* text */
+  --color-ink: #202124;         --color-muted: #5F6368;       --color-faint: #80868B;
+  /* lines */
+  --color-border: #E3E6EA;      --color-divider: #ECEFF3;     --color-field-border: #DADCE0;
+  /* brand */
+  --color-accent: #1A73E8;      --color-accent-hover: #1765CC;
+  --color-accent-tint: #E8F0FE; --color-accent-ink: #1557B0;  --color-on-accent: #FFFFFF;
+  --color-ai: #7C4DFF;          --color-ai-tint: #F1EBFF;     --color-ai-ink: #5B2FD6;
+  /* status */
+  --color-ok: #188038;          --color-ok-tint: #E6F4EA;     --color-ok-ink: #137333;
+  --color-warn: #E37400;        --color-warn-tint: #FEF3E0;   --color-warn-ink: #8A4B00;
+  --color-conflict: #D93025;    --color-conflict-tint: #FCE8E6; --color-conflict-ink: #B3261E;
+  --color-quiet-tint: #F1F3F4;  --color-quiet-ink: #3C4043;
+
+  --shadow-card: 0 1px 2px rgba(60, 64, 67, .06), 0 1px 3px 1px rgba(60, 64, 67, .04);
+  --shadow-pop: 0 4px 8px 3px rgba(60, 64, 67, .10), 0 1px 3px rgba(60, 64, 67, .18);
+  --shadow-glow: 0 0 0 1px rgba(26, 115, 232, .10), 0 8px 28px -8px rgba(26, 115, 232, .30);
+
+  --ease-out: cubic-bezier(.2, .8, .2, 1);
+  --animate-rise: rise 420ms var(--ease-out) both;
+  --animate-fade: fade 200ms ease-out both;
+  --animate-pop: pop 180ms var(--ease-out) both;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --color-ground: #0B1020;      --color-surface: #131B2D;     --color-surface-2: #182237;
+  --color-sidebar: #0E1424;     --color-rail: #2A3A5E;        --color-overlay: rgba(3, 6, 15, .62);
+  --color-ink: #F3F6FC;         --color-muted: #A0AEC2;       --color-faint: #6F7C92;
+  --color-border: rgba(148, 163, 184, .14); --color-divider: rgba(148, 163, 184, .10);
+  --color-field-border: rgba(148, 163, 184, .26);
+  --color-accent: #7AA7FF;      --color-accent-hover: #96BAFF;
+  --color-accent-tint: rgba(122, 167, 255, .14); --color-accent-ink: #A9C6FF; --color-on-accent: #0B1020;
+  --color-ai: #A78BFA;          --color-ai-tint: rgba(167, 139, 250, .15);   --color-ai-ink: #C4B5FD;
+  --color-ok: #4ADE80;          --color-ok-tint: rgba(74, 222, 128, .12);    --color-ok-ink: #86EFAC;
+  --color-warn: #FBBF24;        --color-warn-tint: rgba(251, 191, 36, .13);  --color-warn-ink: #FCD34D;
+  --color-conflict: #F87171;    --color-conflict-tint: rgba(248, 113, 113, .13); --color-conflict-ink: #FCA5A5;
+  --color-quiet-tint: rgba(148, 163, 184, .12); --color-quiet-ink: #CBD5E1;
+  --shadow-card: 0 1px 0 rgba(255, 255, 255, .03) inset, 0 1px 2px rgba(0, 0, 0, .30);
+  --shadow-pop: 0 16px 40px -8px rgba(0, 0, 0, .60), 0 0 0 1px rgba(148, 163, 184, .14);
+  --shadow-glow: 0 0 0 1px rgba(122, 167, 255, .18), 0 10px 32px -10px rgba(122, 167, 255, .40);
+}
+:root { color-scheme: light; }
+
+@layer base {
+  html { background: var(--color-ground); }
+  body { @apply bg-ground text-ink font-sans text-[14px] leading-[1.5] antialiased; font-feature-settings: 'cv11', 'ss01'; }
+  button { @apply cursor-pointer text-left; }
+  :focus-visible { outline: 2px solid var(--color-accent); outline-offset: 2px; border-radius: 6px; }
+  ::selection { background: color-mix(in oklab, var(--color-accent) 30%, transparent); }
+  input, textarea, select { color: inherit; }
+  * { scrollbar-width: thin; scrollbar-color: var(--color-field-border) transparent; }
+}
+
+/* Smooth colour change when the theme switches (class set for ~300 ms by the theme provider) */
+.theme-transition, .theme-transition *, .theme-transition *::before, .theme-transition *::after {
+  transition: background-color 240ms ease, border-color 240ms ease, color 240ms ease, fill 240ms ease !important;
+}
+
+@keyframes rise { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+@keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes pop { from { opacity: 0; transform: scale(.97) translateY(-4px); } to { opacity: 1; transform: none; } }
+@keyframes shimmer { from { background-position: 200% 0; } to { background-position: -200% 0; } }
+@keyframes orbit { to { transform: rotate(360deg); } }
+@keyframes dash-flow { to { stroke-dashoffset: -24; } }
+@keyframes pulse-ring { 0% { box-shadow: 0 0 0 0 color-mix(in oklab, var(--color-accent) 45%, transparent); } 100% { box-shadow: 0 0 0 12px transparent; } }
+@keyframes check-pop { 0% { transform: scale(.6); } 60% { transform: scale(1.15); } 100% { transform: scale(1); } }
+@keyframes travel { from { offset-distance: 0%; } to { offset-distance: 100%; } }
+@keyframes draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+@keyframes grow { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+@keyframes slide-x { from { left: 0%; opacity: 0; } 15% { opacity: 1; } 85% { opacity: 1; } to { left: 100%; opacity: 0; } }
+@keyframes slide-y { from { top: 0%; opacity: 0; } 15% { opacity: 1; } 85% { opacity: 1; } to { top: 100%; opacity: 0; } }
+@keyframes breathe { 0%, 100% { opacity: .55; } 50% { opacity: 1; } }
+
+@layer components {
+  /* staggered entrance; set --i on the element for the step */
+  .stagger { animation: var(--animate-rise); animation-delay: calc(var(--i, 0) * 55ms); }
+  .skeleton {
+    background: linear-gradient(90deg, var(--color-quiet-tint) 25%, color-mix(in oklab, var(--color-quiet-tint) 40%, var(--color-surface)) 50%, var(--color-quiet-tint) 75%);
+    background-size: 200% 100%; animation: shimmer 1.6s linear infinite;
+  }
+  .lift { transition: transform 180ms var(--ease-out), box-shadow 180ms var(--ease-out), border-color 180ms ease; }
+  .lift:hover { transform: translateY(-1px); box-shadow: var(--shadow-pop); }
+  .check-pop { animation: check-pop 260ms var(--ease-out); }
+  .pulse-ring { animation: pulse-ring 1.8s ease-out infinite; }
+  .flow-dash { stroke-dasharray: 4 8; animation: dash-flow 900ms linear infinite; }
+  .orbit { animation: orbit 48s linear infinite; transform-origin: center; transform-box: fill-box; }
+  .breathe { animation: breathe 2.4s ease-in-out infinite; }
+  .tabular { font-variant-numeric: tabular-nums; }
+  /* ambient light for hero areas only */
+  .ambient {
+    background:
+      radial-gradient(60% 120% at 0% 0%, color-mix(in oklab, var(--color-accent) 14%, transparent), transparent 60%),
+      radial-gradient(50% 100% at 100% 0%, color-mix(in oklab, var(--color-ai) 12%, transparent), transparent 65%),
+      var(--color-surface);
+  }
+  .dot-grid {
+    background-color: var(--color-surface-2);
+    background-image: radial-gradient(var(--color-field-border) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+  .tip { position: relative; }
+  .tip[data-tip]:hover::after, .tip[data-tip]:focus-visible::after {
+    content: attr(data-tip); position: absolute; left: calc(100% + 10px); top: 50%; transform: translateY(-50%);
+    white-space: nowrap; padding: 5px 9px; border-radius: 7px; font-size: 12.5px; font-weight: 600;
+    background: var(--color-ink); color: var(--color-ground); z-index: 60; pointer-events: none; animation: var(--animate-fade);
+  }
+}
+
+/* ---------- effects layer ---------- */
+@property --angle { syntax: '<angle>'; initial-value: 0deg; inherits: false; }
+@keyframes spin-angle { to { --angle: 360deg; } }
+@keyframes shimmer-text { to { background-position: -200% center; } }
+@keyframes drift-a { to { transform: translate(35%, 22%) scale(1.2); } }
+@keyframes drift-b { to { transform: translate(-30%, -18%) scale(.88); } }
+
+@layer components {
+  /* Cursor spotlight: soft light inside the card and a lit border near the pointer (vars set in fx/spotlight.js) */
+  .spotlight { position: relative; isolation: isolate; }
+  .spotlight::before, .spotlight::after {
+    content: ''; position: absolute; inset: 0; border-radius: inherit; pointer-events: none;
+    opacity: 0; transition: opacity 300ms ease;
+  }
+  .spotlight::before {
+    z-index: -1;
+    background: radial-gradient(480px circle at var(--mx, 50%) var(--my, 50%), color-mix(in oklab, var(--color-accent) 8%, transparent), transparent 60%);
+  }
+  .spotlight::after {
+    padding: 1px; z-index: 1;
+    background: radial-gradient(280px circle at var(--mx, 50%) var(--my, 50%), color-mix(in oklab, var(--color-accent) 75%, transparent), transparent 70%);
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor;
+    mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
+  }
+  .spotlight:hover::before, .spotlight:hover::after { opacity: 1; }
+
+  /* Rotating gradient border for something live (a running focus session) */
+  .glow-border::after {
+    content: ''; position: absolute; inset: 0; border-radius: inherit; padding: 1.5px; pointer-events: none; z-index: 2;
+    background: conic-gradient(from var(--angle), transparent 0deg, var(--color-accent) 70deg, var(--color-ai) 140deg, transparent 200deg, transparent 360deg);
+    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor;
+    mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
+    animation: spin-angle 3.6s linear infinite;
+  }
+
+  /* Light sweep across AI buttons on hover */
+  .sheen { position: relative; overflow: hidden; }
+  .sheen::after {
+    content: ''; position: absolute; inset: 0; pointer-events: none; transform: translateX(-130%);
+    background: linear-gradient(110deg, transparent 30%, rgba(255, 255, 255, .38) 50%, transparent 70%);
+    transition: transform 800ms var(--ease-out);
+  }
+  .sheen:hover::after { transform: translateX(130%); }
+
+  .text-shimmer {
+    background: linear-gradient(100deg, var(--color-accent), var(--color-ai) 35%, var(--color-accent) 70%, var(--color-ai));
+    background-size: 200% auto; -webkit-background-clip: text; background-clip: text; color: transparent;
+    animation: shimmer-text 7s linear infinite;
+  }
+
+  /* Slow-moving coloured light behind hero content */
+  .aurora { position: absolute; inset: 0; overflow: hidden; border-radius: inherit; pointer-events: none; filter: blur(56px); opacity: .5; }
+  .aurora > span { position: absolute; width: 48%; height: 130%; border-radius: 50%; }
+  .aurora > span:nth-child(1) { left: -12%; top: -55%; background: color-mix(in oklab, var(--color-accent) 40%, transparent); animation: drift-a 19s ease-in-out infinite alternate; }
+  .aurora > span:nth-child(2) { left: 28%; top: 25%; background: color-mix(in oklab, var(--color-ai) 34%, transparent); animation: drift-b 23s ease-in-out infinite alternate; }
+  :root:not([data-theme="dark"]) .aurora { opacity: .32; }
+}
+
+/* Pause decorative motion when the tab is hidden (set by ThemeProvider) and for reduced motion */
+[data-hidden="true"] .orbit, [data-hidden="true"] .flow-dash, [data-hidden="true"] .breathe,
+[data-hidden="true"] .aurora > span, [data-hidden="true"] .text-shimmer, [data-hidden="true"] .glow-border::after { animation-play-state: paused; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; }
+}
