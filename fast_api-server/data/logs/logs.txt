@@ -1,0 +1,295 @@
+2026-10-17 11:50:09,256 - config - INFO - [-] - Loading config
+2026-10-17 11:50:09,257 - config - DEBUG - [-] - Loading prompt templates
+2026-10-17 11:50:09,478 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1075ad5b0>
+2026-10-17 11:50:09,478 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x108837240>
+2026-10-17 11:50:09,478 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x108c00490>
+2026-10-17 11:50:09,478 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x108c03680>
+2026-10-17 11:50:09,478 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x108c00270>
+2026-10-17 11:50:09,478 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x108c03790>
+2026-10-17 11:50:09,478 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1075ae060>
+2026-10-17 11:50:09,478 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x108c02ad0>
+2026-10-17 11:50:09,478 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1075b3530>
+2026-10-17 11:50:09,478 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x108837ce0>
+2026-10-17 11:50:09,478 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10725ac10>
+2026-10-17 11:50:09,478 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x108c01370>
+2026-10-17 11:50:09,478 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10760fdf0>
+2026-10-17 11:50:09,478 - app - DEBUG - [-] - Checking Folder Paths 
+2026-10-17 11:50:09,478 - app - DEBUG - [-] - Checking Database
+2026-10-17 13:17:36,861 - config - INFO - [-] - Loading config
+2026-10-17 13:17:36,862 - config - DEBUG - [-] - Loading prompt templates
+2026-10-17 13:17:37,080 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10829d5b0>
+2026-10-17 13:17:37,080 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1096d3240>
+2026-10-17 13:17:37,081 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x109a98490>
+2026-10-17 13:17:37,081 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x109a9b680>
+2026-10-17 13:17:37,081 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x109a98270>
+2026-10-17 13:17:37,081 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x109a9b790>
+2026-10-17 13:17:37,081 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10829e060>
+2026-10-17 13:17:37,081 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x109a9aad0>
+2026-10-17 13:17:37,081 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1082a3530>
+2026-10-17 13:17:37,081 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1096d3ce0>
+2026-10-17 13:17:37,081 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107caac10>
+2026-10-17 13:17:37,081 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x109a99370>
+2026-10-17 13:17:37,081 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1082ffdf0>
+2026-10-17 13:17:37,081 - app - DEBUG - [-] - Checking Folder Paths 
+2026-10-17 13:17:37,081 - app - DEBUG - [-] - Checking Database
+2026-10-17 13:17:48,129 - config - INFO - [-] - Loading config
+2026-10-17 13:17:48,130 - config - DEBUG - [-] - Loading prompt templates
+2026-10-17 13:17:48,290 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1067ad5b0>
+2026-10-17 13:17:48,290 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107a63240>
+2026-10-17 13:17:48,290 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107e28490>
+2026-10-17 13:17:48,290 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107e2b680>
+2026-10-17 13:17:48,291 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107e28270>
+2026-10-17 13:17:48,291 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107e2b790>
+2026-10-17 13:17:48,291 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1067ae060>
+2026-10-17 13:17:48,291 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107e2aad0>
+2026-10-17 13:17:48,291 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1067b3530>
+2026-10-17 13:17:48,291 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107a63ce0>
+2026-10-17 13:17:48,291 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x106602c10>
+2026-10-17 13:17:48,291 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107e29370>
+2026-10-17 13:17:48,291 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10680fdf0>
+2026-10-17 13:17:48,291 - app - DEBUG - [-] - Checking Folder Paths 
+2026-10-17 13:17:48,291 - app - DEBUG - [-] - Checking Database
+2026-10-17 13:17:53,100 - config - INFO - [-] - Loading config
+2026-10-17 13:17:53,100 - config - DEBUG - [-] - Loading prompt templates
+2026-10-17 13:17:53,204 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107ae15b0>
+2026-10-17 13:17:53,204 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x108f1b240>
+2026-10-17 13:17:53,204 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1093c0490>
+2026-10-17 13:17:53,204 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1093c3680>
+2026-10-17 13:17:53,204 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1093c0270>
+2026-10-17 13:17:53,204 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1093c3790>
+2026-10-17 13:17:53,204 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107ae2060>
+2026-10-17 13:17:53,204 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1093c2ad0>
+2026-10-17 13:17:53,204 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107aeb530>
+2026-10-17 13:17:53,204 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x108f1bce0>
+2026-10-17 13:17:53,204 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10752ec10>
+2026-10-17 13:17:53,204 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1093c1370>
+2026-10-17 13:17:53,204 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107b43df0>
+2026-10-17 13:17:53,204 - app - DEBUG - [-] - Checking Folder Paths 
+2026-10-17 13:17:53,204 - app - DEBUG - [-] - Checking Database
+2026-10-17 13:17:56,609 - config - INFO - [-] - Loading config
+2026-10-17 13:17:56,609 - config - DEBUG - [-] - Loading prompt templates
+2026-10-17 13:17:56,714 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1062095b0>
+2026-10-17 13:17:56,714 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107643240>
+2026-10-17 13:17:56,714 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107a98490>
+2026-10-17 13:17:56,714 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107a9b680>
+2026-10-17 13:17:56,714 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107a98270>
+2026-10-17 13:17:56,714 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107a9b790>
+2026-10-17 13:17:56,714 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10620a060>
+2026-10-17 13:17:56,714 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107a9aad0>
+2026-10-17 13:17:56,714 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x106213530>
+2026-10-17 13:17:56,714 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107643ce0>
+2026-10-17 13:17:56,714 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x105c56c10>
+2026-10-17 13:17:56,714 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107a99370>
+2026-10-17 13:17:56,714 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10626bdf0>
+2026-10-17 13:17:56,714 - app - DEBUG - [-] - Checking Folder Paths 
+2026-10-17 13:17:56,714 - app - DEBUG - [-] - Checking Database
+2026-10-17 13:17:58,598 - config - INFO - [-] - Loading config
+2026-10-17 13:17:58,599 - config - DEBUG - [-] - Loading prompt templates
+2026-10-17 13:17:58,702 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107fad5b0>
+2026-10-17 13:17:58,702 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x110d67240>
+2026-10-17 13:17:58,702 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1123b4490>
+2026-10-17 13:17:58,702 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1123b7680>
+2026-10-17 13:17:58,702 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1123b4270>
+2026-10-17 13:17:58,702 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1123b7790>
+2026-10-17 13:17:58,702 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107fae060>
+2026-10-17 13:17:58,702 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1123b6ad0>
+2026-10-17 13:17:58,702 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107fb3530>
+2026-10-17 13:17:58,702 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x110d67ce0>
+2026-10-17 13:17:58,702 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107e02c10>
+2026-10-17 13:17:58,702 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1123b5370>
+2026-10-17 13:17:58,702 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1103f7df0>
+2026-10-17 13:17:58,702 - app - DEBUG - [-] - Checking Folder Paths 
+2026-10-17 13:17:58,702 - app - DEBUG - [-] - Checking Database
+2026-10-17 13:18:00,618 - config - INFO - [-] - Loading config
+2026-10-17 13:18:00,618 - config - DEBUG - [-] - Loading prompt templates
+2026-10-17 13:18:00,727 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1083215b0>
+2026-10-17 13:18:00,727 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x109757240>
+2026-10-17 13:18:00,727 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x109b1c490>
+2026-10-17 13:18:00,727 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x109b1f680>
+2026-10-17 13:18:00,727 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x109b1c270>
+2026-10-17 13:18:00,727 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x109b1f790>
+2026-10-17 13:18:00,727 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x108322060>
+2026-10-17 13:18:00,727 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x109b1ead0>
+2026-10-17 13:18:00,727 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x108327530>
+2026-10-17 13:18:00,727 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x109757ce0>
+2026-10-17 13:18:00,728 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107cfac10>
+2026-10-17 13:18:00,728 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x109b1d370>
+2026-10-17 13:18:00,728 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10837fdf0>
+2026-10-17 13:18:00,728 - app - DEBUG - [-] - Checking Folder Paths 
+2026-10-17 13:18:00,728 - app - DEBUG - [-] - Checking Database
+2026-10-17 13:18:17,066 - config - INFO - [-] - Loading config
+2026-10-17 13:18:17,067 - config - DEBUG - [-] - Loading prompt templates
+2026-10-17 13:18:17,231 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1102ad5b0>
+2026-10-17 13:18:17,231 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1115eb240>
+2026-10-17 13:18:17,231 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1119b4490>
+2026-10-17 13:18:17,231 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1119b7680>
+2026-10-17 13:18:17,231 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1119b4270>
+2026-10-17 13:18:17,231 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1119b7790>
+2026-10-17 13:18:17,231 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1102ae060>
+2026-10-17 13:18:17,231 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1119b6ad0>
+2026-10-17 13:18:17,231 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1102b3530>
+2026-10-17 13:18:17,231 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1115ebce0>
+2026-10-17 13:18:17,231 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x110002c10>
+2026-10-17 13:18:17,231 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1119b5370>
+2026-10-17 13:18:17,231 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x11030bdf0>
+2026-10-17 13:18:17,231 - app - DEBUG - [-] - Checking Folder Paths 
+2026-10-17 13:18:17,232 - app - DEBUG - [-] - Checking Database
+2026-10-17 13:18:35,353 - config - INFO - [-] - Loading config
+2026-10-17 13:18:35,354 - config - DEBUG - [-] - Loading prompt templates
+2026-10-17 13:18:35,511 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1082d95b0>
+2026-10-17 13:18:35,511 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10980f240>
+2026-10-17 13:18:35,511 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x109c04490>
+2026-10-17 13:18:35,512 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x109c07680>
+2026-10-17 13:18:35,512 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x109c04270>
+2026-10-17 13:18:35,512 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x109c07790>
+2026-10-17 13:18:35,512 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1082da060>
+2026-10-17 13:18:35,512 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x109c06ad0>
+2026-10-17 13:18:35,512 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1082df530>
+2026-10-17 13:18:35,512 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10980fce0>
+2026-10-17 13:18:35,512 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107ce6c10>
+2026-10-17 13:18:35,512 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x109c05370>
+2026-10-17 13:18:35,512 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x108337df0>
+2026-10-17 13:18:35,512 - app - DEBUG - [-] - Checking Folder Paths 
+2026-10-17 13:18:35,512 - app - DEBUG - [-] - Checking Database
+2026-10-17 13:20:10,042 - config - INFO - [-] - Loading config
+2026-10-17 13:20:10,043 - config - DEBUG - [-] - Loading prompt templates
+2026-10-17 13:20:12,551 - config - INFO - [-] - Loading config
+2026-10-17 13:20:12,552 - config - DEBUG - [-] - Loading prompt templates
+2026-10-17 13:20:14,735 - config - INFO - [-] - Loading config
+2026-10-17 13:20:14,736 - config - DEBUG - [-] - Loading prompt templates
+2026-10-17 13:20:14,874 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1077ad5b0>
+2026-10-17 13:20:14,874 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x12137b240>
+2026-10-17 13:20:14,874 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x121740490>
+2026-10-17 13:20:14,874 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x121743680>
+2026-10-17 13:20:14,874 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x121740270>
+2026-10-17 13:20:14,874 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x121743790>
+2026-10-17 13:20:14,874 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1077ae060>
+2026-10-17 13:20:14,874 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x121742ad0>
+2026-10-17 13:20:14,874 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1077b3530>
+2026-10-17 13:20:14,874 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x12137bce0>
+2026-10-17 13:20:14,874 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10735ac10>
+2026-10-17 13:20:14,874 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x121741370>
+2026-10-17 13:20:14,874 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x120a23df0>
+2026-10-17 13:20:14,874 - app - DEBUG - [-] - Checking Folder Paths 
+2026-10-17 13:20:14,874 - app - DEBUG - [-] - Checking Database
+2026-10-17 13:20:18,578 - config - INFO - [-] - Loading config
+2026-10-17 13:20:18,578 - config - DEBUG - [-] - Loading prompt templates
+2026-10-17 13:20:18,685 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x108dad5b0>
+2026-10-17 13:20:18,685 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10a1cb240>
+2026-10-17 13:20:18,685 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10a590490>
+2026-10-17 13:20:18,685 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10a593680>
+2026-10-17 13:20:18,685 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10a590270>
+2026-10-17 13:20:18,685 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10a593790>
+2026-10-17 13:20:18,685 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x108dae060>
+2026-10-17 13:20:18,685 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10a592ad0>
+2026-10-17 13:20:18,685 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x108db3530>
+2026-10-17 13:20:18,685 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10a1cbce0>
+2026-10-17 13:20:18,685 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107f02c10>
+2026-10-17 13:20:18,685 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10a591370>
+2026-10-17 13:20:18,685 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x108e27df0>
+2026-10-17 13:20:18,685 - app - DEBUG - [-] - Checking Folder Paths 
+2026-10-17 13:20:18,685 - app - DEBUG - [-] - Checking Database
+2026-10-17 13:20:25,946 - config - INFO - [-] - Loading config
+2026-10-17 13:20:25,946 - config - DEBUG - [-] - Loading prompt templates
+2026-10-17 13:20:26,059 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1064055b0>
+2026-10-17 13:20:26,059 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107a37240>
+2026-10-17 13:20:26,059 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107e00490>
+2026-10-17 13:20:26,059 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107e03680>
+2026-10-17 13:20:26,059 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107e00270>
+2026-10-17 13:20:26,059 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107e03790>
+2026-10-17 13:20:26,059 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x106406060>
+2026-10-17 13:20:26,059 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107e02ad0>
+2026-10-17 13:20:26,059 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10640b530>
+2026-10-17 13:20:26,059 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107a37ce0>
+2026-10-17 13:20:26,059 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x105e02c10>
+2026-10-17 13:20:26,059 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107e01370>
+2026-10-17 13:20:26,059 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10660fdf0>
+2026-10-17 13:20:26,059 - app - DEBUG - [-] - Checking Folder Paths 
+2026-10-17 13:20:26,059 - app - DEBUG - [-] - Checking Database
+2026-10-17 13:20:37,244 - config - INFO - [-] - Loading config
+2026-10-17 13:20:37,245 - config - DEBUG - [-] - Loading prompt templates
+2026-10-17 13:20:37,352 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1061055b0>
+2026-10-17 13:20:37,352 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1077eb240>
+2026-10-17 13:20:37,352 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107bb0490>
+2026-10-17 13:20:37,352 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107bb3680>
+2026-10-17 13:20:37,352 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107bb0270>
+2026-10-17 13:20:37,352 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107bb3790>
+2026-10-17 13:20:37,352 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x106106060>
+2026-10-17 13:20:37,352 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107bb2ad0>
+2026-10-17 13:20:37,352 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10610b530>
+2026-10-17 13:20:37,352 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1077ebce0>
+2026-10-17 13:20:37,352 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x105f5ac10>
+2026-10-17 13:20:37,352 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107bb1370>
+2026-10-17 13:20:37,352 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10617fdf0>
+2026-10-17 13:20:37,352 - app - DEBUG - [-] - Checking Folder Paths 
+2026-10-17 13:20:37,352 - app - DEBUG - [-] - Checking Database
+2026-10-17 13:20:40,067 - config - INFO - [-] - Loading config
+2026-10-17 13:20:40,068 - config - DEBUG - [-] - Loading prompt templates
+2026-10-17 13:20:41,188 - config - INFO - [-] - Loading config
+2026-10-17 13:20:41,188 - config - DEBUG - [-] - Loading prompt templates
+2026-10-17 13:20:41,300 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1062055b0>
+2026-10-17 13:20:41,300 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10763b240>
+2026-10-17 13:20:41,300 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107bf8490>
+2026-10-17 13:20:41,300 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107bfb680>
+2026-10-17 13:20:41,300 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107bf8270>
+2026-10-17 13:20:41,300 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107bfb790>
+2026-10-17 13:20:41,300 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x106206060>
+2026-10-17 13:20:41,300 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107bfaad0>
+2026-10-17 13:20:41,300 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10620b530>
+2026-10-17 13:20:41,301 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10763bce0>
+2026-10-17 13:20:41,301 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10605ac10>
+2026-10-17 13:20:41,301 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107bf9370>
+2026-10-17 13:20:41,301 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10627fdf0>
+2026-10-17 13:20:41,301 - app - DEBUG - [-] - Checking Folder Paths 
+2026-10-17 13:20:41,301 - app - DEBUG - [-] - Checking Database
+2026-10-17 13:21:18,865 - config - INFO - [-] - Loading config
+2026-10-17 13:21:18,865 - config - DEBUG - [-] - Loading prompt templates
+2026-10-17 13:21:19,035 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107aa95b0>
+2026-10-17 13:21:19,035 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x108ee3240>
+2026-10-17 13:21:19,035 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1092a8490>
+2026-10-17 13:21:19,035 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1092ab680>
+2026-10-17 13:21:19,035 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1092a8270>
+2026-10-17 13:21:19,035 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1092ab790>
+2026-10-17 13:21:19,035 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107aaa060>
+2026-10-17 13:21:19,035 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1092aaad0>
+2026-10-17 13:21:19,035 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107ab3530>
+2026-10-17 13:21:19,035 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x108ee3ce0>
+2026-10-17 13:21:19,035 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1074bac10>
+2026-10-17 13:21:19,035 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1092a9370>
+2026-10-17 13:21:19,035 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x107b0bdf0>
+2026-10-17 13:21:19,035 - app - DEBUG - [-] - Checking Folder Paths 
+2026-10-17 13:21:19,035 - app - DEBUG - [-] - Checking Database
+2026-10-17 13:21:23,058 - config - INFO - [-] - Loading config
+2026-10-17 13:21:23,059 - config - DEBUG - [-] - Loading prompt templates
+2026-10-17 13:21:23,170 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x125c055b0>
+2026-10-17 13:21:23,170 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1271e7240>
+2026-10-17 13:21:23,170 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1275b0490>
+2026-10-17 13:21:23,170 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1275b3680>
+2026-10-17 13:21:23,170 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1275b0270>
+2026-10-17 13:21:23,170 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1275b3790>
+2026-10-17 13:21:23,170 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x125c06060>
+2026-10-17 13:21:23,170 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1275b2ad0>
+2026-10-17 13:21:23,170 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x125c0b530>
+2026-10-17 13:21:23,170 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1271e7ce0>
+2026-10-17 13:21:23,170 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x125a5ac10>
+2026-10-17 13:21:23,170 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1275b1370>
+2026-10-17 13:21:23,170 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x125e0fdf0>
+2026-10-17 13:21:23,170 - app - DEBUG - [-] - Checking Folder Paths 
+2026-10-17 13:21:23,170 - app - DEBUG - [-] - Checking Database
+2026-10-17 13:22:50,025 - config - INFO - [-] - Loading config
+2026-10-17 13:22:50,026 - config - DEBUG - [-] - Loading prompt templates
+2026-10-17 13:22:50,195 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x105d055b0>
+2026-10-17 13:22:50,195 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10713b240>
+2026-10-17 13:22:50,195 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1076f8490>
+2026-10-17 13:22:50,195 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1076fb680>
+2026-10-17 13:22:50,195 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1076f8270>
+2026-10-17 13:22:50,195 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1076fb790>
+2026-10-17 13:22:50,195 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x105d06060>
+2026-10-17 13:22:50,195 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1076faad0>
+2026-10-17 13:22:50,196 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x105d0b530>
+2026-10-17 13:22:50,196 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x10713bce0>
+2026-10-17 13:22:50,196 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x105b5ac10>
+2026-10-17 13:22:50,196 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x1076f9370>
+2026-10-17 13:22:50,196 - app - DEBUG - [-] - Registering router: <fastapi.routing.APIRouter object at 0x105d67df0>
+2026-10-17 13:22:50,196 - app - DEBUG - [-] - Checking Folder Paths 
+2026-10-17 13:22:50,196 - app - DEBUG - [-] - Checking Database

@@ -29,8 +29,8 @@ Thumbs.db
 # Ignore Jupyter Notebook checkpoints
 *.ipynb_checkpoints/
 
-#Database file
-my_database.db
+# #Database file
+# my_database.db
 
+# # data/logs/
 # data/logs/
-data/logs/
